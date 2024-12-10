@@ -38,6 +38,8 @@ data = {
 
 with open("specimen.raw", "rb") as specimen:
     MESSAGE = specimen.read()
+    
+MESSAGE = bytes.fromhex(input("HEX code >"))
 print("Message len:", len(MESSAGE))
 
 print("UDP target IP:", UDP_IP)
