@@ -1,0 +1,1 @@
+This is my attempt at reverse engineering the Monster LED strip protocol. It works with solid colors, but as far as I can tell patters and such are a lost cause. It also seems to freeze the strip with a high volume of requests sustained for a good period of time. Feel free to explore the protocol yourself, I'm curious how the identifiers work.
